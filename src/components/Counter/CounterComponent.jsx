@@ -32,24 +32,24 @@ export const CounterComponent = () => {
               </h2>
                 <button
                   type="button"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-dark btn-lg"
                   onClick={() => sumar()}
                 >
                   +
                 </button>
-                <button type="button" className="btn btn-dark btn-xl">
+                <button type="button" className="btn btn-dark btn-lg">
                   {contador}
                 </button>
                 <button
                   type="button"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-dark btn-lg"
                   onClick={reset}
                 >
                   Reset
                 </button>
                 <button
                   type="button"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-dark btn-lg"
                   onClick={restar}
                 >
                   -
