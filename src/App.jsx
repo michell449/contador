@@ -1,7 +1,7 @@
 import './App.css'
 import { CounterComponent } from './components/Counter/CounterComponent'
 import { HeaderComponent } from './components/Header/HeaderComponent'
-import { FooterComponent } from './components/footer/FooterComponent'
+import { FooterComponent } from './components/Footer/FooterComponent'
 function App() {
 
   return (
